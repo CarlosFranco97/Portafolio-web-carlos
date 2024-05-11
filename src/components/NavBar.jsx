@@ -22,7 +22,7 @@ export const Navbar = () => {
             {/* menu */}
                 <ul className='hidden md:flex'>
                     <li>
-                        <a href="">Home</a>
+                        <a href="">Inicio</a>
                     </li>
                     <li>
                         <a href="">Sobre mí</a>
@@ -50,7 +50,7 @@ export const Navbar = () => {
             {/* Mobile Menu */}
             <ul className={ (!openNavbar) ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center z-10' }>
                 <li className='text-3xl py-6'>
-                    <a href="">Home</a>
+                    <a href="">Inicio</a>
                  </li>
                 <li className='text-3xl py-6'>
                     <a href="">Sobre mí</a>

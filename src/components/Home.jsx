@@ -9,10 +9,10 @@ export const Home = () => {
           <p className='text-red-300'>
             Hola, mi nombre es
           </p>
-           <h1 className='text-7xl md:text-5xl font-bold text-[#c9e9fc]'>
+           <h1 className='text-5xl md:text-6xl font-extrabold text-[#c9e9fc]'>
             Carlos Franco
             </h1>
-          <h2 className='text-7xl md:text-5xl font-bold text-[#e4f4fd]'>
+          <h2 className='text-5xl md:text-6xl font-bold text-[#e4f4fd]'>
             Desarrollador Front-End con React
           </h2>
           <p className='text-[#e4f4fd] py-4 max-w-[700px]'>

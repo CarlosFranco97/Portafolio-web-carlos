@@ -20,3 +20,21 @@
     @apply cursor-pointer;
   }
 }
+ 
+.content-div-projects {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+
+.content-div-projects:hover {
+  background-image: linear-gradient(
+    to top, 
+  #6d7179, 
+  #828b8f, 
+  #9ea5a5, 
+  #bcbfbd, 
+  #dadad8
+  )!important;
+}

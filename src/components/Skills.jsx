@@ -15,7 +15,7 @@ export const Skills = () => {
         {/* Container */}
         <div className='max-w-[1000px] flex flex-col justify-center mx-auto p-4 w-full h-full'>
             <div>
-                <p className='text-4xl inline font-bold border-b-4 border-red-200'>Habilidades</p>
+                <p className='text-4xl inline font-bold border-b-4 border-red-300'>Habilidades</p>
             </div>
             <div className='w-full grid grid-cols-2 gap-8 md:grid-cols-5 md:gap-10 py-8 text-center'>
                 <div className='hover:scale-110 duration-500'>

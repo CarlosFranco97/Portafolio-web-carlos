@@ -1,4 +1,4 @@
-import { Navbar, Home, About, Skills, Projects } from "./components"
+import { Navbar, Home, About, Skills, Projects, Contact } from "./components"
 export const PortafolioApp = () => {
   return (
     <>
@@ -7,6 +7,7 @@ export const PortafolioApp = () => {
         <About />
         <Skills />
         <Projects />
+        <Contact />
     </>
   )
 }

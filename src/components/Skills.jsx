@@ -11,11 +11,11 @@ import Bootstrap from '../assets/bootstrap.png';
 
 export const Skills = () => {
   return (
-    <div name='skills' className='w-full h-full bg-[#0a192f] text-gray-300'>
+    <div name='skills' className='w-full h-screen bg-gradient-to-r from-blue-800 to-indigo-900 text-gray-300'>
         {/* Container */}
         <div className='max-w-[1000px] flex flex-col justify-center mx-auto p-4 w-full h-full'>
             <div>
-                <p className='text-4xl inline font-bold border-b-4 border-red-300'>Habilidades</p>
+                <p className='text-4xl inline font-bold border-b-4 border-lime-300'>Habilidades</p>
             </div>
             <div className='w-full grid grid-cols-2 gap-8 md:grid-cols-5 md:gap-10 py-8 text-center'>
                 <div className='hover:scale-110 duration-500'>

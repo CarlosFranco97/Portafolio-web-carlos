@@ -1,4 +1,4 @@
-import { Navbar, Home, About, Skills, Projects, Contact } from "./components"
+import { Navbar, Home, About, Skills, Projects, Contact, Footer } from "./components"
 export const PortafolioApp = () => {
   return (
     <>
@@ -8,6 +8,7 @@ export const PortafolioApp = () => {
         <Skills />
         <Projects />
         <Contact />
+        <Footer />
     </>
   )
 }

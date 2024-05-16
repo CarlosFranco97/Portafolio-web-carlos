@@ -12,7 +12,7 @@ export const Projects = () => {
     
 
     return (
-        <div name='projects' className='w-full h-full bg-gradient-to-r from-blue-800 to-indigo-900 text-gray-300'>
+        <section name='projects' className='w-full h-full bg-gradient-to-r from-blue-800 to-indigo-900 text-gray-300'>
            
             {/* container */}
             <div className='max-w-[1000px] w-full h-full flex flex-col justify-center mx-auto p-4 pt-[200px]'>
@@ -253,6 +253,6 @@ export const Projects = () => {
                             
                 </div>
             </div>  
-        </div>
+        </section>
     )
 }

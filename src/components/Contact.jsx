@@ -3,7 +3,7 @@ import { useState } from "react"
 export const Contact = () => {
   
     return (
-    <div name='contact' className='bg-gradient-to-r from-blue-800 to-indigo-900 h-screen w-full flex justify-center items-center p-4'>
+    <section name='contact' className='bg-gradient-to-r from-blue-800 to-indigo-900 h-screen w-full flex justify-center items-center p-4'>
         {/* container */}
         <div className='max-w-[1000px] w-full'>
             <div className='pb-8'>
@@ -29,6 +29,6 @@ export const Contact = () => {
                 </button>
             </form>
         </div>
-    </div>
+    </section>
   )
 }

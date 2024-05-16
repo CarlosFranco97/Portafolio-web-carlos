@@ -11,7 +11,7 @@ import Bootstrap from '../assets/bootstrap.png';
 
 export const Skills = () => {
   return (
-    <div name='skills' className='w-full h-screen bg-gradient-to-r from-blue-800 to-indigo-900 text-gray-300'>
+    <section name='skills' className='w-full h-screen bg-gradient-to-r from-blue-800 to-indigo-900 text-gray-300'>
         {/* Container */}
         <div className='max-w-[1000px] flex flex-col justify-center mx-auto p-4 w-full h-full'>
             <div>
@@ -60,6 +60,6 @@ export const Skills = () => {
                 </div>
             </div>
         </div>
-    </div>
+    </section>
   )
 }

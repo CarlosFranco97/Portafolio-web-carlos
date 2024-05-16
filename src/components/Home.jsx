@@ -3,7 +3,7 @@ import { Link } from "react-scroll"
 
 export const Home = () => {
   return (
-    <div name='home' className='bg-gradient-to-r from-blue-800 to-indigo-900 w-full h-screen'>
+    <section name='home' className='bg-gradient-to-r from-blue-800 to-indigo-900 w-full h-screen'>
         
         {/* Container */}
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
@@ -30,6 +30,6 @@ export const Home = () => {
             </Link>
           </div>
         </div>
-    </div>
+    </section>
   )
 }

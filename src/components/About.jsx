@@ -2,7 +2,7 @@
 export const About = () => {
   
     return (
-    <div name='about' className='w-full h-screen bg-gradient-to-r from-blue-800 to-indigo-900 text-gray-300'>
+    <section name='about' className='w-full h-screen bg-gradient-to-r from-blue-800 to-indigo-900 text-gray-300'>
         <div className='flex flex-col justify-center items-center w-full h-full'>
             <div className="max-w-[1000px] w-full flex">
                 <div className='text-right pb-8 pl-4'>
@@ -18,7 +18,7 @@ export const About = () => {
                </div>
             </div>
         </div>
-    </div>
+    </section>
     )
 
 }
